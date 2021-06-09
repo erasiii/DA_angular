@@ -1,0 +1,59 @@
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.breadcrumb-section {
+  padding: 45px 0 40px;
+  text-align: center;
+}
+
+.breadcrumb__text h2 {
+  font-size: 45px;
+  color: white;
+  font-weight: 800;
+}
+
+.breadcrumb__option a {
+  color: white;
+  font-weight: 800;
+  margin-right: 5px;
+  transition: 0.3s all ease-in-out;
+}
+
+.breadcrumb__option a:hover {
+  text-decoration: none;
+  color: #7fad39;
+}
+
+.breadcrumb__option span {
+  color: white;
+}
+
+.blog {
+  padding: 50px 0;
+}
+
+.blog-content {
+  padding: 50px;
+}
+
+.blog-content p {
+  line-height: 1.5em;
+}
+
+.author {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.blog-date {
+  padding: 0 10px;
+  color: #7d7d7d;
+}
+.blog-author {
+  padding: 0 10px;
+  color: #7d7d7d;
+}
