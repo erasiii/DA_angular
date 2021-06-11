@@ -15,7 +15,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { ProductModule } from './product/product.module';
 import { BlogModule } from './blog/blog.module';
 import { CartModule } from './cart/cart.module';
-
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 const appRoutes: Routes = [
   { path: 'index', component: IndexComponent },
@@ -47,6 +47,7 @@ const appRoutes: Routes = [
     ProductModule,
     BlogModule,
     CartModule,
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

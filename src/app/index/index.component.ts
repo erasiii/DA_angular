@@ -12,4 +12,28 @@ export class IndexComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  customOptions: any = {
+    loop: false,
+    mouseDrag: true,
+    touchDrag: true,
+    pullDrag: false,
+    dots: true,
+    navSpeed: 300,
+    navText: ['', ''],
+    nav: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      768: {
+        items: 3
+      },
+      992: {
+        items: 3
+      }
+    }
+  }
 }
