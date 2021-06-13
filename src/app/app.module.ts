@@ -16,6 +16,8 @@ import { ProductModule } from './product/product.module';
 import { BlogModule } from './blog/blog.module';
 import { CartModule } from './cart/cart.module';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { LoginComponent } from './login/login.component';
+import { LoginModule } from './login/login.module';
 
 const appRoutes: Routes = [
   { path: 'index', component: IndexComponent },
@@ -25,6 +27,7 @@ const appRoutes: Routes = [
   { path: 'product', component: ProductComponent },
   { path: 'blog', component: BlogComponent},
   { path: 'cart', component: CartComponent },
+  { path: 'login', component: LoginComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
@@ -39,7 +42,9 @@ const appRoutes: Routes = [
     ProductComponent,
     CartComponent,
     BlogComponent,
-    NotFoundComponent
+    LoginComponent,
+    NotFoundComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -47,7 +52,9 @@ const appRoutes: Routes = [
     ProductModule,
     BlogModule,
     CartModule,
+    LoginModule,
     CarouselModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

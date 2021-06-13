@@ -16,7 +16,7 @@ export class IndexComponent implements OnInit {
     loop: false,
     mouseDrag: true,
     touchDrag: true,
-    pullDrag: false,
+    pullDrag: true,
     dots: true,
     navSpeed: 300,
     navText: ['', ''],

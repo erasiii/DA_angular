@@ -49,11 +49,11 @@
   justify-content: flex-end;
 }
 
-.blog-date {
-  padding: 0 10px;
-  color: #7d7d7d;
-}
 .blog-author {
   padding: 0 10px;
   color: #7d7d7d;
+}
+
+.blog-author i {
+  margin-right: 3px;
 }

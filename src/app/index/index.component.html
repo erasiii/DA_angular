@@ -35,7 +35,7 @@
               Vegetable <br> 100% Organic
             </h2>
             <p>Free Pickup and Delivery Available</p>
-            <a [routerLink]="['shop']" class="primary-btn">SHOP NOW</a>
+            <a [routerLink]="['/product']" class="primary-btn">SHOP NOW</a>
             <!-- <a routerLink="/about.html"class="primary-btn" >SHOP NOW</a> -->
           </div>
         </div>
@@ -133,7 +133,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-4 blog-item">
-        <img src="assets/images/news/new-1.jpg" alt="">
+       <a [routerLink]="['/blog']"> <img src="assets/images/news/new-1.jpg" alt=""> </a>
         <div class="blog-item__date">
           <i class="far fa-comment"></i> Feb 2,2021
         </div>
@@ -145,7 +145,7 @@
         </div>
       </div>
       <div class="col-lg-4 blog-item">
-        <img src="assets/images/news/new-2.jpg" alt="">
+       <a [routerLink]="['/blog']"> <img src="assets/images/news/new-2.jpg" alt=""> </a>
         <div class="blog-item__date">
           <i class="far fa-comment"></i> Feb 2,2021
         </div>
@@ -157,7 +157,7 @@
         </div>
       </div>
       <div class="col-lg-4 blog-item">
-        <img src="assets/images/news/new-3.jpg" alt="">
+       <a [routerLink]="['/blog']" > <img src="assets/images/news/new-3.jpg" alt=""> </a>
         <div class="blog-item__date">
           <i class="far fa-comment"></i> Feb 2,2021
         </div>
